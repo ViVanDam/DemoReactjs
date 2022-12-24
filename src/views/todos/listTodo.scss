@@ -1,0 +1,94 @@
+::placeholder {
+    color: aliceblue;
+    opacity: 0.8;
+}
+
+hr {
+    width: 300px;
+    margin: 10px auto;
+}
+
+.add-todo {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    border: 2px solid whitesmoke;
+    display: flex;
+    border-radius: 5px;
+
+    input {
+        width: 400px;
+        height: 20px;
+        background-color: transparent;
+        outline: none;
+        border: none;
+        flex: 1;
+        padding-left: 10px;
+        color: aliceblue;
+    }
+
+    button {
+        background-color: black;
+            color: aliceblue;
+            border-radius: 5px;
+            padding: 2px 5px;
+            cursor: pointer;
+    }
+}
+
+.list-todo {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    border: 1px solid whitesmoke;
+    padding: 20px;
+    margin-top: 20px ;
+    display: flex;
+    flex-direction: column;
+
+    .todo-item {
+        border-bottom: 1px solid whitesmoke;
+        // padding-bottom: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 30px;
+        max-height: 50px;
+
+        p {
+            margin-right: 5px;
+            // border: 1px solid whitesmoke;
+        }
+
+        span {
+            // width: 350px;
+            padding-left: 10px;
+            flex: 1;
+            display: flex;
+            // justify-content: center;
+            align-items: center;
+        }
+
+        input {
+            width: 90%;
+            color: black;
+            background-color: transparent;
+            border: none;
+            font-size: 22px;
+
+            &::placeholder {
+                color: aliceblue;
+                opacity: 0.8;
+            }
+
+        }
+
+        button {
+            background-color: black;
+            color: aliceblue;
+            border-radius: 5px;
+            margin: 5px;
+            cursor: pointer;
+        }
+    }
+}

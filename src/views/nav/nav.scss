@@ -1,0 +1,23 @@
+.topnav {
+    display: flex;
+    width: 700px;
+    justify-content: space-around;
+    margin: 0 auto;
+
+a.active {
+        background-color: #04AA6D;
+        color: white;
+      }
+
+    a {
+        color: aliceblue;
+        text-decoration: none;
+        background-color: blueviolet;
+        flex: 1;
+        padding: 5px 0;
+    }
+
+    a:hover {
+        background-color: black;
+    }
+}

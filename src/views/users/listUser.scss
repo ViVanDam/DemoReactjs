@@ -1,0 +1,34 @@
+.list-user {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid whitesmoke;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
+    .user-item {
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+        border-bottom: 1px solid whitesmoke;
+
+
+        span {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px 0;
+        }:last-child {
+            flex: 4;
+            border-left: 1px solid whitesmoke;
+        }:nth-child(2) {
+            border-left: 1px solid whitesmoke;
+        }
+
+        
+    }:last-child {
+        border-bottom: none;
+    }
+}
